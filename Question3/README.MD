@@ -55,6 +55,3 @@ j.  Review and Merge<br>
 
    After receiving approval, merge both pull requests into the main branch.<br>
 
-
-	1. Switch back to the "featue/circle-area" branch to continue working on the circle-area feature.
-	- "git checkout feature/circle-area"
