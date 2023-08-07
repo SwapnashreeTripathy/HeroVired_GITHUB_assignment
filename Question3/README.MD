@@ -1,17 +1,15 @@
-Git Assignment ---3
+Git Assignment Q.3
 
-a.  Create a New Branch:
-
-- Created a new branch named "feature/circle-area" to work on the circle-area feature.
-	"git checkout -b feature/circle-area"
-- Create a new file "geometry-calculator" with Circle Area Feature in the "feature/circle-area" branch
+a.  Create a New Branch:<br>
+- Created a new branch named "feature/circle-area" to work on the circle-area feature.<br>
+      "git checkout -b feature/circle-area"<br>
+- Create a new file "geometry-calculator" with Circle Area Feature in the "feature/circle-area" branch<br>
 
 b. Stash Changes for Circle Area Feature:
 -  Before committing the changes, stash them using git stash to save the incomplete feature implementation.
-   
    1. Add the Git file & Stash this File
-   -"git add geometry-calculator.py" 
-   -"git stash "
+      "git add geometry-calculator.py" 
+       "git stash "
 
    2. The File should not appear while checking git status
    -"git status"
