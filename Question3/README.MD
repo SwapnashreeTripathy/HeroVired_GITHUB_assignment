@@ -49,7 +49,7 @@ g.  Switch Back to Rectangle Area Branch & commit and Push Rectangle Area Featur
 i.  Create Pull Requests:<br>
   -  Create a pull request to the ‘dev’ branch.<br>
      *Fromm the git hub create a pull request from feature/rectangle-area & feature/circle-area to Dev Branch.<br>
- 
+      
 j.  Review and Merge<br>
   -  Have another team member or reviewer review your pull requests.<br>
 
