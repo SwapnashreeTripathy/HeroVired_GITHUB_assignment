@@ -43,8 +43,8 @@ g.  Switch Back to Rectangle Area Branch & commit and Push Rectangle Area Featur
     “git stash list”<br>
    "git stash apply {stash-id of the stash made for rectangle-area code}"<br>
  -  Complete the rectangle area feature implementation and save the changes.<br>
-   “git add *”<br>
-   “git commit -m ”commit rectangle-area code”<br>
+   				“git add *”<br>
+   				“git commit -m ”commit rectangle-area code”<br>
 
 i.  Create Pull Requests:<br>
   -  Create a pull request to the ‘dev’ branch.<br>
@@ -56,5 +56,5 @@ j.  Review and Merge<br>
    After receiving approval, merge both pull requests into the main branch.<br>
 
 
-	1. Switch back to the "feature/circle-area" branch to continue working on the circle-area feature.
+	1. Switch back to the "featue/circle-area" branch to continue working on the circle-area feature.
 	- "git checkout feature/circle-area"
