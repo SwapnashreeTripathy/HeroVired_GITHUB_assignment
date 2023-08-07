@@ -9,38 +9,38 @@ A new feature has been implemented that adds support for calculating the square 
 
 1. Create GitRepo named "git_assignment_HeroVired" and Clone the repo to your Local environment.
 
-   "git clone GitHub repo SSH link)"
+       "git clone GitHub repo SSH link)"
 
 2. Create a new branch "dev" to make changes to the code in this branch.
 
-  "git checkout -b dev"  -- this will create a new branch and will switch to it at the same time
+       "git checkout -b dev"  -- this will create a new branch and will switch to it at the same time
 
 3. Create a Python file as "CalculatorPlus" and add the basic arithmetic calculation
  
 
 4. Stage this file in the "dev" Branch & then Commit this File.
 
-	"git status"
+	   "git status"
 
-	"git add <CalculatorPlus.py>"
+	   "git add <CalculatorPlus.py>"
 
-	"git commit -m "add some message for this commit here" <CalculatorPlus.py>
+	   "git commit -m "add some message for this commit here" <CalculatorPlus.py>
 
-	"git log"  -- to view the recently made Commit details
+	   "git log"  -- to view the recently made Commit details
 
 5. Merge the recent commit from the "dev" Branch to the "Main" branch.
 
-	"git checkout main"
+	   "git checkout main"
 
-	"git merge dev"     -- Merge all the recent commits of Dev to the Main branch
+	   "git merge dev"     -- Merge all the recent commits of Dev to the Main branch
 
-	 "git log" 		 -- to check whether commits have been reflected on Main or not
+	   "git log" 		 -- to check whether commits have been reflected on Main or not
 
 6. Push the commit from "Main local" to Main GitHub or "Origin/main".
 
-	 "git log"  -- now you can see "origin/main" should have moved to "HEAD -> main" commit 
+	   "git log"  -- now you can see "origin/main" should have moved to "HEAD -> main" commit 
 
-   "git push" -- to push changes from local Main to "origin/main"
+       "git push" -- to push changes from local Main to "origin/main"
 	
 7. Release the First Version of the code.
 
@@ -50,27 +50,27 @@ A new feature has been implemented that adds support for calculating the square 
 9. create a new branch as "feature/sqrt" & check out to it.
    "git branch feature/sqrt"
 
-   "git checkout  feature/sqrt"
+       "git checkout  feature/sqrt"
 	 
 10. Add the ‘sqrt’ code to the "feature/sqrt" branch. and Stash it to save the code temporarily.
 
-    “git stash”
+        “git stash”
 11. As a critical bug is reported in the main branch, switch back to the ‘dev’ branch to fix the bug.
 
 	 i. Add the "divide function" code fix to the "CalculatorPlus.py" file in the "Dev" Branch.
 
 	 ii. then Stage & commit the "CalculatorPlus.py" in Dev Branch & Push the newly fixed code into Dev Origin.
 
-	  “git add CalculatorPlus.py”
+	    “git add CalculatorPlus.py”
 
-	  “git commit -m "message" 
+	    “git commit -m "message" 
 
-     “git log”      -- to check the newly added commit info
+        “git log”      -- to check the newly added commit info
 
 		
 	**In order to Push the "dev" code from Local to Origin/main, create an Origin/main using the below command.
 
-	  “git push -u origin dev” - will create an Origin/dev branch & will push to it as well.
+	    “git push -u origin dev” - will create an Origin/dev branch & will push to it as well.
 
 	**You can check the same if reflecting or not from "Git Log" or from "Git Hub".
 
@@ -78,7 +78,7 @@ A new feature has been implemented that adds support for calculating the square 
 
 13. Once the PR is reviewed by Collaborator, check out to the feature/sqrt branch & bring the temporarily saved code for the "Square" function back.
 
-	   “git stash pop”
+	    “git stash pop”
 
 	 i. A Merge Conflict occurs as there "Square" function was saved in the CalculatorPlus.py file. 
 
@@ -88,13 +88,13 @@ A new feature has been implemented that adds support for calculating the square 
 
 	 iv. Commit the "CalculatorPlus.py" file in the "feature/sqrt" branch.
 
-	   “git commit -m "message"
+	    “git commit -m "message"
 
 14. This code can now be merged to the DEV branch & then Push to DEV Origin.
 
-	   “git checkout dev”
+	    “git checkout dev”
 
-	   “git merge feature/sqrt”
+	    “git merge feature/sqrt”
 
 	    “git log”
 
