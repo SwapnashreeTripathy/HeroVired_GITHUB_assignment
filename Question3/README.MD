@@ -2,7 +2,7 @@
 
 a. Create a New Branch:<br>
 - Created a new branch named "feature/circle-area" to work on the circle-area feature.<br>
-      "git checkout -b feature/circle-area"<br>
+                       "git checkout -b feature/circle-area"<br>
 - Create a new file "geometry-calculator" with Circle Area Feature in the "feature/circle-area" branch<br>
 
 b. Stash Changes for Circle Area Feature:<br>
