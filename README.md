@@ -36,7 +36,7 @@ Uploaded a 200 MB ".pdf" file using Git LFS
 10. Clone the Repo in any other folder to Check if the Large File is getting downloaded properly<br>
    "git clone < ssh repo link>"<br>
    
-   ![image](https://github.com/SwapnashreeTripathy/git_assignment_HeroVired/assets/139486876/81e18baf-e446-48eb-a531-8b0e72453ba6)
+    ![image](https://github.com/SwapnashreeTripathy/git_assignment_HeroVired/assets/139486876/81e18baf-e446-48eb-a531-8b0e72453ba6)
 
    
 
