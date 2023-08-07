@@ -5,11 +5,11 @@ a.  Create a New Branch:<br>
       "git checkout -b feature/circle-area"<br>
 - Create a new file "geometry-calculator" with Circle Area Feature in the "feature/circle-area" branch<br>
 
-b. Stash Changes for Circle Area Feature:
--  Before committing the changes, stash them using git stash to save the incomplete feature implementation.
-   1. Add the Git file & Stash this File
-      "git add geometry-calculator.py" 
-       "git stash "
+b. Stash Changes for Circle Area Feature:<br>
+-  Before committing the changes, stash them using git stash to save the incomplete feature implementation.<br>
+   1. Add the Git file & Stash this File<br>
+      "git add geometry-calculator.py"<br> 
+       "git stash "<br>
 
    2. The File should not appear while checking git status
    -"git status"
